@@ -44,10 +44,12 @@
     align-items: center;
 }
 
-.avatar {
+.avatar_profile {
     border-radius: 16px;
-
+    width: 123px;
+    height: 123px;
 }
+
 
 .content_top-panel_person-info_text {
     display: flex;
@@ -98,4 +100,10 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+}
+
+.images {
+    width: 322px;
+    height: 322px;
+    margin: 2px;
 }

@@ -12,9 +12,9 @@
     </head>
     <body>
         <?php
-            $file_posts = file_get_contents("../data/post.json", true);
+            $file_posts = file_get_contents("../data/json/posts.json", true);
             $posts = json_decode($file_posts, true);
-            $file_users = file_get_contents("../data/users.json", true);
+            $file_users = file_get_contents("../data/json/users.json", true);
             $users = json_decode($file_users, true);
         ?>
         <main class="app">

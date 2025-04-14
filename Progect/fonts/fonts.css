@@ -2,11 +2,12 @@
     font-family: Golos UI b;
     src: url("golos-ui_bold.woff");
     font-style: bold;
+    color: black;
 }
 
 @font-face {
     font-family: Golos UI;
     src: url("golos-ui_regular.woff");
     font-style: normal;
-
+    color: black;
 }

@@ -53,9 +53,9 @@
     align-items: center;
 }
 
-.avatar {
-    border-radius: 5px;
-    width: 32px;  
+.avatar_post {
+    border-radius: 6px;
+    width: 32px;
     height: 32px;
 }
 .post_hat_person-info_h2 {
@@ -64,6 +64,7 @@
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
+    color: black;
 }
 
 .post_images {

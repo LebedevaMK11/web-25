@@ -13,25 +13,10 @@ require '../data/validate.php';
     </head>
     <body>
         <?php
-            $file_users = file_get_contents("../data/users.json", true);
+            $file_users = file_get_contents("../data/json/users.json", true);
             $users = json_decode($file_users, true);
-
-            $flag = false;
-            if (isset($_GET['user_id']) && is_numeric($_GET['user_id'])) {
-                $temp = validate_profile($users, $_GET['user_id']);
-                if ($temp !== false) {
-                    $user = $temp;
-                } else {
-                    $flag = true;
-                }
-            } else {
-                $flag = true;
-            }
-
-            if ($flag) {
-                header("Location: ../home", true);
-                exit;
-            }
+            $file_posts = file_get_contents("../data/json/posts.json", true);
+            $posts = json_decode($file_posts, true);
         ?>
         <main class="app">
             <nav class="menu">
@@ -42,7 +27,18 @@ require '../data/validate.php';
             
             <section class="content">
                 <?php
-                    GenerationProfile($user);
+                    if ($user = validate_profile($users, $_GET['user_id'])) {
+                        $userPosts = [];
+                        foreach ($posts as $post) {
+                            if ($user['user_id'] == $post['user_id']) {
+                                array_push ($userPosts, $post);
+                            }
+                        }
+                        GenerationProfile($user, $userPosts);
+                    } else {
+                        header("Location: ../home", true);
+                        exit;
+                    }   
                 ?>
             </section>
         </main>

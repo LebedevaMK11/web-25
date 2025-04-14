@@ -1,0 +1,26 @@
+[
+    {
+      "user_id": 0,
+      "name": "Ваня",
+      "surname": "Денисов",
+      "profile_image": "../images/avatar_vani.jpg",
+      "description": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!"
+    },
+
+    {
+      "user_id": 1,       
+      "name": "Лиза",
+      "surname": "Дёмина",
+      "profile_image": "../images/avatar_lisa.jpg",
+      "description": "Описание пользователя."        
+
+    },
+    
+    {
+      "user_id": 2,      
+      "name": "Люба",
+      "surname": "Лебедева",
+      "profile_image": "../images/avatar_lisa.jpg",
+      "description": "Кто не знает Любочку, Любу знают все"
+    }  
+  ]

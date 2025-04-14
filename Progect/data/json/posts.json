@@ -1,0 +1,100 @@
+[
+    {
+      "post_id": 0,
+      "user_id": 0,
+      "images": ["../images/man_in_snow.jpg"],
+      "like_counter": 203,
+      "text": "Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в городке, занесенном снегом по ручку двери...» ",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 1,
+      "user_id": 1,
+      "images": ["../images/flowers.jpg"],
+      "like_counter": 22,
+      "text": "Люблю читать и сушенных щук",
+      "time": 1744467840
+    },
+
+    {
+      "post_id": 2,
+      "user_id": 2,
+      "images": ["../images/flowers.jpg"],
+      "like_counter": 22,
+      "text": "Люблю себя",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 3,
+      "user_id": 0,
+      "images": ["../images/photo_house.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 4,
+      "user_id": 0,
+      "images": ["../images/cake.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 5,
+      "user_id": 0,
+      "images": ["../images/students.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 5,
+      "user_id": 0,
+      "images": ["../images/coffe.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 6,
+      "user_id": 0,
+      "images": ["../images/book.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 6,
+      "user_id": 0,
+      "images": ["../images/tree.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 7,
+      "user_id": 0,
+      "images": ["../images/two_men.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    },
+
+    {
+      "post_id": 8,
+      "user_id": 0,
+      "images": ["../images/pot.jpg"],
+      "like_counter": 22,
+      "text": "текст",
+      "time": 1744554420
+    }
+  ]
